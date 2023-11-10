@@ -1,0 +1,32 @@
+.card-container {
+    display: flex; /* Display cards in a row */
+    flex-wrap: wrap; /* Wrap cards to the next row if they overflow */
+    justify-content: space-between; /* Distribute cards evenly */
+  }
+  
+  .card {
+    width: 300px; /* Adjust card width as per your preference */
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  img {
+    width: 100%; /* Make the image fit inside the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+  }
+  
+  .card-content {color: black;
+    
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for mobile screens */
+  }
+  

@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #171718;
+  }
+  
+  header {
+    background-color: #232f3e;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo img {
+    height: 100px;
+    width: 250px;
+  }
+  a {text-align: center;}
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Dropdown Button */
+.dropbtn {
+  background-color:  #232f3e;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropbtn:hover {color: #232f3e;}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #f1f1f1 ;}
+
+  
+  main {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  h1 {
+    text-align: justify;
+    color: white;
+  }
+  
+  footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #232f3e;
+    color: #fff;
+  }
+  /* bg image styling */
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+    main { margin: 0; 
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd-yCqw3u2Pt_X0IYzpc2tPanqp4cnlIw7mg&usqp=CAU");
+     background-size: contain; 
+     background-repeat: no-repeat;
+      background-position: center;
+      color-interpolation-filters: auto;
+      background-color: #171718;
+     }
+
+     /* container images*/
+     .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+h1 {text-align: center;
+    
+}
+
+p {color: white;}
+
+  .container {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGjjf7c5gRGCGqBnzb3JII6numd_O-DHy0w&usqp=CAU");
+    background-size: cover; /* Ensures the background image covers the entire container */
+     background-position: center; /* Centers the background image within the container */
+     width: 420px; /* Set your desired container width */ 
+     height: 300px; /* Set your desired container height */ 
+     margin: 0 auto; /* Centers container horizontally */ 
+     display: flex; justify-content: center; /* Centers content horizontally within the container */ 
+     align-items: center; /* Centers content vertically within the container */ 
+    }
+
+
+
+    @media (max-width: 768px) {
+      /* Styles for smaller screens */
+    }
+    
+    @media (max-width: 480px) {
+      /* Styles for mobile screens */
+    } 
+
+
+  
